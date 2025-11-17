@@ -21,6 +21,7 @@ conda activate spark_env
 conda install openjdk=17
 # we are using JAVA version 17 for this apache spark download
 ```
+You will also need to install java (make sure it's the same version as your conda install) and set up the environment variables manually for windows computers. Google how to set up JAVA_HOME, HADOOP_HOME environment variables on windows machine. It'll tell you what to do. You can follow the professors guide, but there is an easier way. 
 
 ## Install Apache Spark
 ```
